@@ -5,15 +5,51 @@
     box-sizing: border-box;
 }
 
-.container{
+.container_int{
     width: 80%;
     max-width: 1200px;
     margin: auto;
+    padding: 1rem;
+}
+
+.container, 
+.container_rev {    
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container, 
+.container_rev{
+    height: 600px;
+}
+
+.container{
+    width: 80%;
 }
 
 .row{
     display: flex;
 }
+
+.col-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.rev{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+nav {
+    padding: 2.5rem;
+    text-align: center;
+}
+
 /* #endregion Common rules */
 
 /* #region Griglia con flex */
@@ -24,10 +60,6 @@
 .col-2{
     width: calc( (100% / 12) * 2);
 }
-.col-24{
-    width: calc( (100% / 12) * 2.4);
-}
-
 .col-3{
     width: calc( (100% / 12) * 3);
 }
@@ -43,10 +75,6 @@
 .col-7{
     width: calc( (100% / 12) * 7);
 }
-.col-72{
-    width: calc( (100% / 12) * 7.2);
-}
-
 .col-8{
     width: calc( (100% / 12) * 8);
 }
@@ -68,20 +96,15 @@
 /* #region Debug */
 
 .debug [class^="col-"] {
-    background-color: red;
-    height: 100px;
     border: 1px solid;
   }
+
+  .debug .col-2,
+  .debug .col-8{
+    background-color: orange;
+    height: 100px;
+  }
   
-  .debug header,
-  .debug footer {
-    height: 240px;
-  }
-
-  .debug main{
-    height: 1200px;
-  }
-
   .debug header{
     background-color: aqua;
   }
@@ -93,10 +116,18 @@
     align-items: center;
     justify-content: center;
   }
-  .debug section{
+  .debug .title{
     height: 300px;
     width: 400px;
     background-color: pink;
-   
+  }
+
+  .debug .col-3, 
+  .debug .col-9 {
+    height: 400px;
+  }
+
+  .debug .container_rev{
+    background-color: gray;
   }
 /* #endregion Debug */
