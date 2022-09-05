@@ -23,6 +23,10 @@
   background-size: contain;
 }
 
+body{
+  font-family: 'Pontano Sans', sans-serif;
+
+}
 
 /* #endregion Common rules */
 
@@ -53,20 +57,57 @@ a{
   border-radius: 2rem;
   padding: 0.5rem;
 }
-/* #endregion Header */
 
-/* #region Main */
 nav {
       text-align: center;
       padding: 0.5rem 0;
 }
 
+/* #endregion Header */
+
+/* #region Main */
+
 .title{
     margin:auto;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+  font-size: 4rem;
+  padding-top: 3rem;
+  padding-right: 0px;
+  padding-bottom: 1.5rem;
+  padding-left: 0px;
+}
+
+p{
+ font-size: 1.5rem;
+ line-height: 2.15rem;
+ padding-bottom: 1rem;
 }
 
 .intestazione{
     padding: 1.5rem;
+    text-align: center;
+}
+
+.mac{
+  text-align: center;
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+.disc{
+  text-align: center;
+  background-color: #23272A;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
 }
 
 article {
