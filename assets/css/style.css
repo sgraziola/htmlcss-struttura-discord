@@ -171,7 +171,9 @@ article {
     height: 600px;
   }
 
-
+  .debug .bottomnav{
+    background-color: greenyellow;
+  }
 
 
 /* #endregion Debug */
