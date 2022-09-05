@@ -15,9 +15,17 @@
 .row{
     display: flex;
 }
+.sfondo{
+  background-image: url(../img/jumbo.png);
+  background-repeat: no-repeat;
+  background-position:top;
+  position: relative;
+  background-size: contain;
+}
 /* #endregion Common rules */
 
 /* #region Header */
+
 .col-2 {
     display: flex;
     align-items: center;
