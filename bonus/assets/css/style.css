@@ -22,6 +22,8 @@
   position: relative;
   background-size: contain;
 }
+
+
 /* #endregion Common rules */
 
 /* #region Header */
@@ -37,11 +39,26 @@
     justify-content: flex-end;
 
 }
+
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 0 1rem;
+}
+
+.login{
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
 /* #endregion Header */
 
 /* #region Main */
 nav {
       text-align: center;
+      padding: 0.5rem 0;
 }
 
 .title{
