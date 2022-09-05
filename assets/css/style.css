@@ -17,7 +17,7 @@
 }
 /* #endregion Common rules */
 
-/* #regione Header */
+/* #region Header */
 .col-2 {
     display: flex;
     align-items: center;
@@ -56,6 +56,10 @@ article {
 
 
 /* #endregion Main */
+
+/* #region Footer */
+
+/* #endregion Footer */
 
 /* #region Griglia con flex */
 
@@ -112,6 +116,10 @@ article {
   .debug header{
     background-color: aqua;
   }
+
+  .debug footer{
+    background-color: black;
+  }
   
   .debug .intestazione{
     background-color: blue;
@@ -125,6 +133,10 @@ article {
   .debug .col-3, 
   .debug .col-9 {
     height: 400px;
+  }
+
+  .debug .col_f{
+    height: 600px;
   }
 
   .debug .col-3{
@@ -146,4 +158,11 @@ article {
     height: 800px;
     background-color: green;
   }
+
+  .debug .col-4{
+    background-color: salmon;
+    height: 600px;
+  }
+
+
 /* #endregion Debug */
