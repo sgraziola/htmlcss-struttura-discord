@@ -5,34 +5,19 @@
     box-sizing: border-box;
 }
 
-.container_head{
+.container {
     width: 80%;
     max-width: 1200px;
     margin: auto;
-    padding: 1rem;
-}
-
-.container, 
-.container_rev {    
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container, 
-.container_rev{
-    height: 600px;
-}
-
-.container{
-    width: 80%;
+    padding: 2rem 0;
 }
 
 .row{
     display: flex;
 }
+/* #endregion Common rules */
 
+/* #regione Header */
 .col-2 {
     display: flex;
     align-items: center;
@@ -44,7 +29,9 @@
     justify-content: flex-end;
 
 }
+/* #endregion Header */
 
+/* #region Main */
 nav {
       text-align: center;
 }
@@ -56,7 +43,19 @@ nav {
 .intestazione{
     padding: 1.5rem;
 }
-/* #endregion Common rules */
+
+article {
+    padding: 2rem;
+}
+
+.details{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* #endregion Main */
 
 /* #region Griglia con flex */
 
@@ -128,7 +127,23 @@ nav {
     height: 400px;
   }
 
-  .debug .container_rev{
+  .debug .col-3{
+    background-color: rosybrown;
+  }
+  
+  .debug .col-9{
+    background-color: lightblue;
+  }
+  
+  .debug .grigio{
     background-color: gray;
+  }
+
+  .debug article{
+    background-color:gray;
+  }
+  .debug .details{
+    height: 800px;
+    background-color: green;
   }
 /* #endregion Debug */
