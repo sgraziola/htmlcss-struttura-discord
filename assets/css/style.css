@@ -78,8 +78,21 @@
     height: 240px;
   }
 
+  .debug main{
+    height: 1200px;
+  }
+
   .debug header{
     background-color: aqua;
   }
   
+  .debug .intestazione{
+    background-color: blue;
+    height: 600px;
+  }
+  .debug section{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+  }
 /* #endregion Debug */
