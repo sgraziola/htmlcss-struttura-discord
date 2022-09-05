@@ -89,10 +89,14 @@
   .debug .intestazione{
     background-color: blue;
     height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .debug section{
     height: 300px;
     width: 400px;
     background-color: pink;
+   
   }
 /* #endregion Debug */
