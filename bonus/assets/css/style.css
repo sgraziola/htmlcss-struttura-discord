@@ -1,0 +1,177 @@
+/* #region Common rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+.row{
+    display: flex;
+}
+/* #endregion Common rules */
+
+/* #region Header */
+.col-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.rev{
+    display: flex;
+    justify-content: flex-end;
+
+}
+/* #endregion Header */
+
+/* #region Main */
+nav {
+      text-align: center;
+}
+
+.title{
+    margin:auto;
+}
+
+.intestazione{
+    padding: 1.5rem;
+}
+
+article {
+    padding: 2rem;
+}
+
+.details{
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+/* #endregion Main */
+
+/* #region Footer */
+.cont_foot{
+    border-bottom: 2px solid aqua;
+}
+
+.r_foot{
+    justify-content: space-between;
+}
+/* #endregion Footer */
+
+/* #region Griglia con flex */
+
+.col-1{
+    width: calc( (100% / 12) * 1);
+}
+.col-2{
+    width: calc( (100% / 12) * 2);
+}
+.col-3{
+    width: calc( (100% / 12) * 3);
+}
+.col-4{
+    width: calc( (100% / 12) * 4);
+}
+.col-5{
+    width: calc( (100% / 12) * 5);
+}
+.col-6{
+    width: calc( (100% / 12) * 6);
+}
+.col-7{
+    width: calc( (100% / 12) * 7);
+}
+.col-8{
+    width: calc( (100% / 12) * 8);
+}
+.col-9{
+    width: calc( (100% / 12) * 9);
+}
+.col-10{
+    width: calc( (100% / 12) * 10);
+}
+.col-11{
+    width: calc( (100% / 12) * 11);
+}
+.col-12{
+    width: calc( (100% / 12) * 12);
+}
+
+/* #endregion Griglia con flex */
+
+/* #region Debug */
+
+.debug [class^="col-"] {
+    border: 1px solid;
+  }
+
+  .debug .col-2,
+  .debug .col-8{
+    background-color: orange;
+  }
+  
+  .debug header{
+    background-color: aqua;
+  }
+
+  .debug footer{
+    background-color: black;
+    color: white;
+  }
+  
+  .debug .intestazione{
+    background-color: blue;
+  }
+  .debug .title{
+    height: 300px;
+    width: 800px;
+    background-color: pink;
+  }
+
+  .debug .col-3, 
+  .debug .col-9 {
+    height: 400px;
+  }
+
+  .debug .col_f{
+    height: 600px;
+  }
+
+  .debug .col-3{
+    background-color: rosybrown;
+  }
+  
+  .debug .col-9{
+    background-color: lightblue;
+  }
+  
+  .debug .grigio{
+    background-color: gray;
+  }
+
+  .debug article{
+    background-color:gray;
+  }
+  .debug .details{
+    height: 800px;
+    background-color: green;
+  }
+
+  .debug .col-4{
+    background-color: salmon;
+    height: 600px;
+  }
+
+
+
+
+/* #endregion Debug */
