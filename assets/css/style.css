@@ -58,7 +58,13 @@ article {
 /* #endregion Main */
 
 /* #region Footer */
+.cont_foot{
+    border-bottom: 2px solid aqua;
+}
 
+.r_foot{
+    justify-content: space-between;
+}
 /* #endregion Footer */
 
 /* #region Griglia con flex */
@@ -119,6 +125,7 @@ article {
 
   .debug footer{
     background-color: black;
+    color: white;
   }
   
   .debug .intestazione{
@@ -163,6 +170,8 @@ article {
     background-color: salmon;
     height: 600px;
   }
+
+
 
 
 /* #endregion Debug */
